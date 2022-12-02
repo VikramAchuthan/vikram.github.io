@@ -1,0 +1,294 @@
+:root {
+  --blue: #1d3270;
+  --yellow: #ffb703;
+  --purple: #4E2A84;
+}
+
+
+/*NAVIGATION BAR*/
+
+nav.top-nav{
+   background-color:  #C7D3D4FF;
+
+   text-align: center;
+
+ 
+}
+
+nav [aria-current = page]{
+   
+   
+   text-decoration: underline;
+   text-decoration-color: var(--blue);
+   text-underline-offset: 4px;
+
+}
+
+main{
+   margin-top:  100px;
+   margin-left:  2em;
+
+}
+
+nav.top-nav li{
+   display:  inline-block;
+   font-family: 'Montserrat', sans-serif;
+   font-weight:  bold;
+   font-size: 14px;
+   margin:  15px;
+   user-select:  none;
+   text-align: center;
+
+}
+
+
+
+nav.top-nav ul{
+   list-style:  none;
+
+}
+
+nav.top-nav .pulldown-menu li{
+   display:  block;
+}
+
+nav.top-nav .pulldown-menu{
+   display:  none;
+   position: absolute;
+   border:  1px solid white;
+   background-color: white;
+
+
+}
+
+nav.top-nav li:hover .pulldown-menu{
+   display: block;
+}
+
+.nav-link:link {
+  color: var(--purple);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  color: var(--blue);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+   color:  var(--purple);
+  background-color: transparent;
+}
+
+.nav-link:active {
+  color: var(--purple);
+  background-color: transparent;
+  text-decoration: underline;
+}
+#within-about-link{
+   text-decoration: underline;
+}
+
+/*LANDING PAGE*/
+.home-wrapper{
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+     width: 75%;
+
+}
+
+.left{
+   float: left;
+   font-family: 'Montserrat', sans-serif;
+   color: var(--blue);
+   padding-right: 30px;
+
+}
+
+.logo-container{
+
+}
+.profile-pic{
+   border: 2px solid var(--blue);
+   border-radius: 50%;
+   padding: 3px;
+
+   text-align: center;
+}
+
+.socials{
+   display: block;
+}
+.about{
+   font-size: 40px;
+   text-align: left;
+   color: var(--blue);
+   margin-right: 250px;
+
+   font-family: 'Montserrat', sans-serif;
+}
+.about-blurb{
+   font-size: 15px;
+   text-align: left;
+}
+.socials ul {
+  margin-left: 65px;
+}
+
+.socials li{
+  float: left;
+}
+.socials li a:hover {
+    color: var(--purple);
+}
+
+.socials li a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: var(--blue);
+}
+hr {
+  border: 0;
+  border-top: 2px solid var(--blue);
+}
+
+/*RESUME*/
+
+.resume-viewer{
+width: 710px;
+margin-left: auto ;
+margin-right: auto ;
+
+}
+
+/*CONTACT*/
+.contact-wrapper{
+
+   font-size: 150px;
+   color: var(--blue);
+   float: left;
+   padding-right: 5%;
+   text-align: center;
+   margin-left: auto
+
+}
+.email{
+   font-size: 50px;
+   color: var(--blue);
+   padding-top: 5px;
+
+}
+
+
+/*PROJECT*/
+
+.project-1-wrapper{
+
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+.project-1-hover{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   object-fit: cover;
+   opacity: 0;
+   width: 780px;
+   height: 521px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+.project-1-hover:hover {
+   opacity: 1;
+}
+.project-2-wrapper{
+
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+.project-1-image{
+   max-width: 100%;
+   height: auto;
+   position: relative;
+   top: 0;
+   left: 0;
+
+}
+.project-1-hover{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   object-fit: cover;
+   opacity: 0;
+   width: 780px;
+   height: 521px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+.project-1-hover:hover {
+   opacity: 1;
+}
+
+/*PROJECT 1*/
+
+.project-1-title {
+
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   color: var(--blue);
+
+}
+.project-1-more-info{
+   width: 50%;
+
+}
+#project-1-date{
+
+      font-size: 20px;
+
+
+}
+#project-1-info{
+
+      font-size: 15px;
+      margin-right: 50%;
+
+
+}
+#project-1-link{
+
+      font-size: 15px;
+      margin-right: 50%;
+      text-decoration: underline;
+
+
+}
+
+}
+
+
+
+
+
+
